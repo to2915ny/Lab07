@@ -19,7 +19,7 @@ public class Lecture {
 			s_1.set_name("Jess"); s_1.set_year(4); s_1.set_id("21400999"); s_1.set_missed(0); //set the 2 instance variable thats has no value
 			s_2.set_name("Kent"); s_2.set_year(2); s_2.set_id("21700111"); s_2.set_missed(0);
 
-			Random randomGenerator = new Random(); //instatiate randomGenerator - this will be used to generate a random number
+			Random randomGenerator = new Random(); //instantiate randomGenerator - this will be used to generate a random number
 
 			s_1.set_missed(randomGenerator.nextInt(10)); //set no. of absent days with random instance
 			s_2.set_missed(randomGenerator.nextInt(10)); //nextInt(10) means it will generate any number between 0 to 10
