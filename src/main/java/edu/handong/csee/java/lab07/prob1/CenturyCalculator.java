@@ -17,7 +17,7 @@ public class CenturyCalculator {
 	{
 		if(year % 100 == 0) // calculate if year divided by 100 has no remainder
 			year = year / 100; //then remove the last 2 digits and save it in variable year
-								//eg 1900%100= 0 1900/100 =19 1900 is 19th century
+		//eg 1900%100= 0 1900/100 =19 1900 is 19th century
 		else
 		{
 			year = (year / 100) + 1; // if not remove the last 2 digits of the given 4 digit year and add 1 and store it in variable year

@@ -21,7 +21,7 @@ public class Attendance {
 		this.student_id = "Null"; //student_id =0
 		this.missed = 0; //days of absent = 0 
 	}
- /** same methods been declared but with a different parameter. Overloading*/
+	/** same methods been declared but with a different parameter. Overloading*/
 	public Attendance(String name, int year, String student_id, int missed) 
 	{
 		this.name = name; //if the parameters are given then automatically java directs it to this method
