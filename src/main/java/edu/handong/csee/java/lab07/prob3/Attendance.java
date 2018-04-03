@@ -19,7 +19,7 @@ public class Attendance {
 		this.name = "Null"; //variable name =0
 		this.year = 0; //year = 0
 		this.student_id = "Null"; //student_id =0
-		this.missed = 0; //days of absent = 0 Nothings stored in inital local variable
+		this.missed = 0; //days of absent = 0 
 	}
  /** same methods been declared but with a different parameter. Overloading*/
 	public Attendance(String name, int year, String student_id, int missed) 
